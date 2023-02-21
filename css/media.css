@@ -622,8 +622,10 @@
     padding: 13px 28px;
     font-size: 12px;
     line-height: 15px;
-    margin-left: 42px;
+    position: relative;
     border-radius: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
     }
 
     .swiper-slide {
@@ -707,6 +709,22 @@
     color: var(--orange);
     border-radius: 8px;
     border: 2px solid var(--orange);
+    }
+
+    .about__button:focus {
+    color: var(--white);
+    background-color: var(--orange);
+    }
+    
+    .about__button:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    }
+    
+    .about__button:active {
+    color: var(--white);
+    background-color: var(--dark-orange);
+    border: 2px solid var(--dark-orange);
     }
 
     .about-right__item {
